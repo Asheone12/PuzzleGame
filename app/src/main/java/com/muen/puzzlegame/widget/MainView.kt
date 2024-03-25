@@ -50,7 +50,7 @@ class MainView@JvmOverloads constructor(
         //载入图像，并将图片切成块
         val assetManager = context.assets
         try {
-            val assetInputStream = assetManager.open("back.jpg")
+            val assetInputStream = assetManager.open("youxiang.jpg")
             val bitmap = BitmapFactory.decodeStream(assetInputStream)
             back = Bitmap.createScaledBitmap(
                 bitmap,
